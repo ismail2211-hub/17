@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+    list-style: none;
+    font-family: "roboto";
+}
+body{
+   background-color: #eeeaea; 
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.img{
+    width: 2.5rem;
+    height: 2.1rem;
+}
+
+:root{
+    --text-white:#818181;
+    --text-black: black;
+    font-size: 16px;
+    --font_r:"Roboto";
+    --gradient_bg: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    --desc: #818181;
+    --gradient_card: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    --shadow: 4px 4px 4px pink;
+
+
+
+
+}
+
+.nav__link{
+    color: var(--text-white);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 1.5rem 0px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.header__content-title{
+    font-size: 3.4rem;
+    width: 42rem;
+    font-weight: 900;
+}
+
+.btn{
+
+    outline: none;
+    border: none;
+    background-color: transparent;
+    background: var(--gradient_bg);
+    color: var(--text-white);
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    margin-top: 4.2rem;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.25rem;
+}
+
+.boxparent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.4375rem;
+}
+
+.box{
+    background-color: #ffffff;
+    border-radius: 0.9375rem;
+}
+
+.textik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18.75rem;
+    gap: 0.3125rem;
+}
+
+.testimonials {
+      background: linear-gradient(to right, #e8c1f2, #cad4fc);
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+      gap:  35px;
+      margin-top: 225px;
+    }
+
+    .testimonial {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .testimonial img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      padding: 30px 50px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      background: #f9f9f9;
+    }

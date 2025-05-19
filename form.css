@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-white: white;
+    --text-black: black;
+    font-size: 16px;
+    --font_r: "Roboto";
+    --gradient_bg: linear-gradient(95.2deg, #890160 2.23%, #2E3192 99.51%);
+    --desc: #737373;
+    --gradient_card: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    --shadow: 4px 4px 4px pink;
+}
+
+body {
+    height: 100vh;
+    background: url(Rectangle\ 18.png) no-repeat center /cover;
+}
+
+.form {
+    box-shadow: 0px 0px 35px 0px #D4145A40;
+    height: 392px;
+    width: 75%;
+    background-color: var(--text-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: var(--font_r);
+    text-transform: uppercase;
+    margin-top: 2.6rem;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.inputs {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2.8rem;
+}
+
+input {
+    outline: none;
+    border: 1px solid #A1A1A1;
+    border-radius: 0.6rem;
+    padding-left: 1.1rem;
+    width: 22.6rem;
+    height: 3rem;
+}
+
+textarea{
+    margin-top: 1rem;
+    outline: none;
+    border: 1px solid #A1A1A1;
+    border-radius: 0.6rem;
+    padding-left: 1.1rem;
+    resize: none;
+    width: 47rem;
+    height: 5rem;
+    padding-top: 0.7rem;
+}
+
+.btn{
+    
+    outline: none;
+    border: none;
+    background-color: transparent;
+    background: var(--gradient_bg);
+    color: var(--text-white);
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    margin-top: 3.2rem;
+}
